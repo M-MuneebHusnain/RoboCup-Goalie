@@ -5,7 +5,7 @@ sceneTreePerspectives: 000000ff00000001000000030000002200000292000000fa010000000
 maximizedDockId: -1
 centralWidgetVisible: 1
 orthographicViewHeight: 1
-textFiles: 1 "controllers/nao_goalie_python/nao_goalie_python.py" "controllers/nao_player_python/nao_player_python.py"
+textFiles: 1 "../../../../../Program Files/Webots/projects/robots/softbank/nao/controllers/nao_player_python/nao_player_python.py" "../../../../../Program Files/Webots/projects/robots/softbank/nao/controllers/nao_goalie_python/nao_goalie_python.py"
 consoles: Console:All:All
 renderingDevicePerspectives: Goalie:CameraBottom;1;0.266667;0;0
 renderingDevicePerspectives: Goalie:CameraTop;1;0.266667;0;0
