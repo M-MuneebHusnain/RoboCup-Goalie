@@ -15,7 +15,6 @@ class Nao (Robot):
         self.sideStepRight = Motion('../../motions/SideStepRight.motion')
         self.turnLeft60 = Motion('../../motions/TurnLeft60.motion')
         self.turnRight60 = Motion('../../motions/TurnRight60.motion')
-        self.taiChi = Motion('../../motions/TaiChi.motion')
         self.wipeForhead = Motion('../../motions/WipeForehead.motion')
         self.StandUpFromFront = Motion('../../motions/StandUpFromFront.motion')
         self.shoot = Motion('../../motions/Shoot.motion')
@@ -186,7 +185,6 @@ class Nao (Robot):
         print('[PageUp][PageDown]: open/close hands')
         print('[7][8][9]: change all leds RGB color')
         print('[0]: turn all leds off')
-        print('[T]: perform Tai chi movements')
         print('[W]: wipe its forehead')
         print('[H]: print this help message')
 
@@ -327,8 +325,6 @@ class Nao (Robot):
                 self.printUltrasoundSensors()
             elif key == ord('K'):
                 self.startMotion(self.shoot)
-            elif key == ord('T'):
-                self.startMotion(self.taiChi)
             elif key == ord('W'):
                 self.startMotion(self.wipeForhead)
             elif key == ord('Y'):
